@@ -8,8 +8,8 @@ end
 
 if random == true
   puts 'sí'
+elsif random != true and random != false
+  puts 'error'
 elsif random == false
   puts 'no'
-else
-  puts 'error'
 end

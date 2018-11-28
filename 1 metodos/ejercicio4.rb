@@ -5,8 +5,11 @@
 def saludo sld
   if sld == 'hola'
     puts 'Hola mundo'
+  else
+    puts 'bienvenido'
   end
 
 end
 
 puts saludo ('hola')
+puts saludo ('hi')
