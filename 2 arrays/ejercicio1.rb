@@ -25,6 +25,12 @@ arreglo.each_with_index do |arreglo, element|
   puts "#{element}: #{arreglo}"
 end
 # 5. Mostrar en pantalla todos los elementos que se encuentren en una posición par.
-#arreglo.each_with_index do |arreglo, element|
-#puts arreglo.lengh
-#end
+#suma = 0
+x = 0
+while x < arreglo.length
+  x = x + 1
+  if x % 2 == 0
+    print "la pos es par y el valor es: ", arreglo[x]
+    puts "  "
+  end
+end
