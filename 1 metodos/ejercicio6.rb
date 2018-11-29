@@ -7,11 +7,12 @@
 # *****
 
 def draw_line(size)
-  '*' * size
+  puts '*' * size
 end
 
+#pendiente!!
 def draw_lines(size)
-  size.times { }
+  size.times 
 end
 
 draw_line 2

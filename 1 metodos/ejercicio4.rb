@@ -2,14 +2,13 @@
 # debe recibir un parámetro, si ese parámetro es el string "Hola" el
 # método debe mostrar en pantalla "Hola Mundo".
 
-def saludo sld
+def saludo(sld)
   if sld == 'hola'
     puts 'Hola mundo'
   else
-    puts 'bienvenido'
+    puts '*****'
   end
-
 end
 
-puts saludo ('hola')
-puts saludo ('hi')
+puts saludo('hola')
+puts saludo('hi')

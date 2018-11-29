@@ -9,5 +9,5 @@ def check5(num)
   end
 end
 
-puts check5(5) # Debería ser false
-puts check5(6) # Debería ser true
+puts check5(5) # Deberia ser false
+puts check5(6) # Deberia ser true

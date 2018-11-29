@@ -8,7 +8,7 @@ end
 
 if random == true
   puts 'sí'
-elsif random != true and random != false
+elsif random != true && random != false
   puts 'error'
 elsif random == false
   puts 'no'
